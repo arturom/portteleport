@@ -4,6 +4,8 @@ Binds a local port to a port of a remote server accessed through SSH.
 
 Tunnel is created from CLI options
 
+Use case: Accessing a database port as a local port when only SSH access is given.
+
 ### Building the project
 `mvn package`
 
