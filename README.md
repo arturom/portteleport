@@ -7,11 +7,12 @@ Tunnel is created from CLI options
 Use case: Accessing a database port as a local port when only SSH access is given.
 
 ### Building the project
-`mvn package`
+`$ mvn package`
 
 ### CLI Parameters
 ```
-java -jar ./target/portteleport-0.0.1-SNAPSHOT.jar -?
+$ java -jar ./target/portteleport-0.0.1-SNAPSHOT.jar -?
+
 usage: portteleport
  -?,--help                    Print this menu
  -h,--sshhost <hostname>      Hostname or IP of the SSH server
