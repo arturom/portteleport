@@ -4,7 +4,7 @@ Binds a local port to a port of a remote server accessed through SSH.
 
 Tunnel is created from CLI options
 
-Use case: Accessing a database port as a local port when only SSH access is given.
+Use case: Accessing a database port on a remote host as a local port when only SSH access is given to the remote host.
 
 ### Building the project
 `$ mvn package`
