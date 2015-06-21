@@ -2,6 +2,8 @@
 
 Binds a local port to a port of a remote server accessed through SSH.
 
+The same operation can be achieved with: `$ ssh -L [bind_address:]port:host:hostport -i identity_file [user@]hostname`
+
 Tunnel is created from CLI options
 
 Use case: Accessing a database port on a remote host as a local port when only SSH access is given to the remote host.
